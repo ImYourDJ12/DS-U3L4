@@ -1,0 +1,11 @@
+1. The base cases are if the list reaches one thing in it or when the pointer is 
+the thing your looking for.
+2. Splitting the lists and moving the pointer.
+3. The initial value of the pointer should be where the list is split. From there
+it will either move one place to the left or one place to the right represented by
+plus 1 or minus 1.
+4. The maximum number of steps using binary search for this list is 4. Splitting 
+the list then checking to see if it has found the number. A basic iteration search 
+will take as many as it takes to find the number. In some cases that could be 1 
+iteration or 9 iterations. While iteration searching could be faster in some cases,
+binary searching is more reliable.
